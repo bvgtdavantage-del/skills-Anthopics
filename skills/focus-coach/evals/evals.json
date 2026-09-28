@@ -1,0 +1,78 @@
+{
+  "skill_name": "focus-coach",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I'm staring at my quarterly VAT return and I can't get started. Break it down into ridiculously small steps that each take less than 1 minute. Give me the first step and tell me exactly where to put my hands to begin.",
+      "expected_output": "Only step 1 of an estimated total, a single physical action under a minute, literal hand placement, and an invitation to reply done for step 2.",
+      "files": [],
+      "expectations": [
+        "Gives exactly one step and does not list the later steps",
+        "Step 1 is one physical action that takes under a minute and contains no decision",
+        "Includes literal hand placement matched to the medium the task is done on",
+        "Shows an approximate total step count",
+        "Invites the user to reply done for the next step",
+        "Has no preamble and stays under about 80 words"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "I'm feeling understimulated. Create a 'Dopamine Menu' for me with 5-minute 'Appetizers' (quick movement), 20-minute 'Main Courses' (deep work), and 10-minute 'Sides' (creative play) to keep my brain engaged. I work from a small apartment and this week I'm writing an investment memo.",
+      "expected_output": "Three courses with about five concrete items each, Main Courses tied to the investment memo, a How to order sequence, and one closing line.",
+      "files": [],
+      "expectations": [
+        "Has Appetizers at 5 minutes of movement, Main Courses at 20 minutes of deep work, and Sides at 10 minutes of creative play",
+        "Lists about five items per course, each concrete with a clear finish line",
+        "Appetizers need no equipment and fit a small apartment",
+        "Main Courses refer to the investment memo",
+        "Includes a How to order sequence that puts movement before deep work and never runs two Main Courses back to back",
+        "Has no preamble and ends with a single closing line"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Act as my virtual body double for the next 30 minutes. I'm working on clearing my inbox, about 300 unread emails. Check in with me every 10 minutes, ask for a status update, and help me stay focused. (Test setting: plain chat with no scheduling tools; the current time is 14:00.)",
+      "expected_output": "A one-message session start with a proposed finish line, one setup nudge, a micro-sized first move, check-in clock times, and an honest request that the user sets a timer because the assistant cannot message first.",
+      "files": [],
+      "expectations": [
+        "Proposes a concrete finish line for the 30 minutes instead of asking the user to define one",
+        "Gives a micro-sized first move",
+        "States the check-ins as clock times 14:10 and 14:20 and the wrap-up as 14:30",
+        "Says plainly that it cannot message first and asks the user to set a timer and send a message when it rings",
+        "Does not promise a check-in that nothing will deliver",
+        "Includes one setup nudge such as putting the phone away",
+        "Stays short with no preamble"
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "My brain is full of open loops. Categorize these into Now, Later and Trash, and write a one-sentence Next Action Step only for the Now items. Here goes: rent is due on the 1st and I'm not sure I have enough in checking, need to reply to Mark about the contract redlines he sent Tuesday, dentist said to book a cleaning 6 months ago, what if the investor pulls out, car registration expires next month, I keep replaying that awkward thing I said at dinner, need a birthday gift for my sister (her birthday is Saturday), the kitchen tap drips, I should learn Spanish, my accountant asked for the tax documents last week, the gym membership I never use is still charging me, my laptop battery is dying fast, haven't called grandma in a month, and my chest has been feeling tight when I climb stairs.",
+      "expected_output": "Every loop sorted into exactly one bucket, at most five Now items each with one next-action sentence, no next actions for Later or Trash, the chest tightness in Now, and a closing offer to micro-start Now #1.",
+      "files": [],
+      "expectations": [
+        "Every loop from the dump appears in exactly one bucket",
+        "Now holds at most five items",
+        "Each Now item has exactly one next-action sentence that starts with a physical verb",
+        "Later and Trash items carry no next actions",
+        "The chest tightness on stairs is in Now with a next action to contact a doctor",
+        "The rent worry is sorted as a concrete action rather than as a worry",
+        "The investor what-if and the dinner replay are in Trash",
+        "Any deadline the assistant guessed is marked with (?)",
+        "Ends with one line offering to break Now #1 into tiny steps"
+      ]
+    },
+    {
+      "id": 5,
+      "prompt": "\"I'm staring at and I can't get started. Break it down into ridiculously small steps that each take less than 1 minute. Give me the first step and tell me exactly where to put my hands to begin.\" \"I'm feeling understimulated. Create a 'Dopamine Menu' for me with 5-minute 'Appetizers' (quick movement), 20-minute 'Main Courses' (deep work), and 10-minute 'Sides' (creative play) to keep my brain engaged.\" \"Act as my virtual body double for the next 30 minutes. I'll tell you what I'm working on, and I want you to check in with me every 10 minutes, ask for a status update, and help me stay focused.\" \"My brain is full of 'open loops.' I'm going to brain-dump everything that's worrying me. Categorize these items into 'Now,' 'Later,' and 'Trash,' then write a one-sentence 'Next Action Step' only for the items in 'Now.'\"",
+      "expected_output": "A complete Dopamine Menu delivered immediately, followed by one short list asking for the three missing inputs: the task, what the body-double session is for, and the brain dump.",
+      "files": [],
+      "expectations": [
+        "Delivers a complete Dopamine Menu without asking anything first",
+        "Does not invent a task to micro-step",
+        "Asks for the three missing inputs (the task, the body-double work, the brain dump) in one compact list at the end",
+        "Asks no other questions",
+        "Does not promise check-ins that nothing will deliver"
+      ]
+    }
+  ]
+}

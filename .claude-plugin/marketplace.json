@@ -50,6 +50,15 @@
       "skills": [
         "./skills/claude-api"
       ]
+    },
+    {
+      "name": "focus-coach",
+      "description": "Executive-function coaching for getting unstuck: micro-steps to start a task, a dopamine menu, body-double focus sessions with check-ins, and brain-dump triage",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/focus-coach"
+      ]
     }
   ]
 }
