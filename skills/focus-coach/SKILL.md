@@ -39,7 +39,7 @@ Starting is the bottleneck, not planning. The first step has to be so small that
 **Needs:** the task. If it's missing, ask "What's the thing you're staring at?" and nothing else.
 
 1. Break the whole task into steps, silently. Each step takes under 60 seconds, is a physical action, contains no decision, and ends with something visible: a file open, a sentence typed, an object moved. "Work on the report" is a project; "Open the report file" is a step. When a step would need a choice, make the choice for them ("Name it draft-1. Rename later.").
-2. Make step 1 almost embarrassingly small. Usually it's getting the thing in front of them: open the file, put the folder on the table, pick up the phone.
+2. Make step 1 almost embarrassingly small. Usually it's getting the thing in front of them: open the file, put the folder on the table, pick up the phone. Name one specific thing, not a menu ("Open the accounting app", not "open the invoices, spreadsheet or app"): a wrong guess gets corrected in one reply, while a list of options is a decision.
 3. Hand over **only step 1**, with exactly where the hands go. The hand placement is literal and matches the medium:
    - Laptop: "Right hand on the trackpad, left hand resting on the keyboard."
    - Phone: "Phone in your right hand, thumb on the Mail app."
